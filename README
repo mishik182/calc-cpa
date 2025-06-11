@@ -1,0 +1,6 @@
+1. pip install -r requirements.txt
+2. pytest --cov=app
+3. alembic revision --autogenerate -m "Create tables"
+4. alembic upgrade head
+5. python run.py -h
+6. python run.py
